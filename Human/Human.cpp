@@ -1,7 +1,10 @@
 #include "Human.h" // файл реализации
+#include<iostream>
+using namespace std;
 
 Human::Human()
 {
+	cout << "Constructor\n";
 }
 
 Human::Human(const char* n, const char* s, int a)

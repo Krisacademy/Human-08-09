@@ -1,8 +1,10 @@
 #include<iostream>
+#include "Human.h"
 using namespace std;
 
 int main()
 {
-	cout << "Hello";
+	Human obj1;
+	obj1.Print();
 
 }
